@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400&display=swap');
+.design-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #1f1f1f;
+  min-height: 100vh;
+  padding: 100px 0;
+  font-family: Jost;
+}
+
+.design {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.timeline {
+  width: 80%;
+  height: auto;
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.timeline-content {
+  padding: 10px;
+  background: #1f1f1f;
+  -webkit-box-shadow: 5px 5px 10px #1a1a1a, -5px -5px 10px #242424;
+          box-shadow: 5px 5px 10px #1a1a1a, -5px -5px 10px #242424;
+  border-radius: 5px;
+  color: white;
+  transition: 0.4s ease;
+  overflow-wrap: break-word !important;
+  margin-bottom: 20px;
+  border-radius: 6px;
+}
+
+.timeline-component {
+  margin: 0px 20px 20px 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .timeline {
+    display: grid;
+    grid-template-columns: 1fr 3px 1fr;
+  }
+  .timeline-middle {
+    position: relative;
+    background-image: linear-gradient(45deg, #F27121, #E94057, #8A2387);
+    width: 3px;
+    height: 100%;
+  }
+  .main-middle {
+    opacity: 0;
+  }
+  .timeline-circle {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-image: linear-gradient(45deg, #F27121, #E94057, #8A2387);
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+}
+
+</style>
+</head>
+<body>
+
+
+<style>@import url('https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400&display=swap');</style>
+<!--This is the main container that contains the whole timeline.-->
+<section class="design-section">
+<div class="timeline">
+
+          <!--Well, The reason for this div is to fill space. 
+This space is technically used for keeping dates, 
+but I didn't find the need for dates. However, I'll provide 
+you the styling for dates, so that you can use it if you 
+wanted to.-->
+
+
+                  <div class="timeline-empty">
+                  </div>
+
+<!--This is the class where the timeline graphics are 
+housed in. Note that we have timeline-circle 
+here for that pointer in timeline.-->
+
+               <div class="timeline-middle">
+                   <div class="timeline-circle"></div>
+               </div>
+               <div class="timeline-component timeline-content">
+                <h3>পূর্ব আকাশে শুক্র গ্রহের সর্বোচ্চ আরোহণ </h3>
+                <h3 style="color:red;">০৪ জুন </h3>
+                <p> <img src="jun4.jpg" style="float:right; border-radius: 50%; width: 85px;" >
+                            শুক্র গ্রহ একটি অভ্যন্তরীণ গ্রহ। কক্ষপথ পৃথিবী থেকে ভেতরের দিকে। বুধের মতোই তাই এটি পৃথিবীর আকাশের পুরোটা চক্কর খায় না। পশ্চিমে বা পূবে একটি সর্বোচ্চ উচ্চতা পর্যন্ত উঠে আবার নামতে থাকে। দোলকের মতো চলতে থাকে এ খেলা। 
+                        </p>
+           </div>
+           
+                <div class="timeline-component timeline-content">
+                <h3>জিলহজ মাসের নতুন চাঁদ</h3>
+                         <h3 style="color:red;">১৯ জুন</h3>
+                          <img src="jun19.jpg" style="float:left; border-radius: 50%; width: 85px;" > <p style="float:right; width: 65%;"> 
+                            অমাবস্যা পেরিয়ে আবার এলো নতুন চাঁদ। এ দিন চাঁদ ডুববে সন্ধ্যা ৮ টায়। ততক্ষণে চাঁদ শিকারিদের চোখে পড়বে আকাশ মেঘমুক্ত থাকলে। 
+                        </p>
+                </div>
+                
+                <div class="timeline-middle">
+                    <div class="timeline-circle"></div>
+                </div>
+                <div class="timeline-empty">
+                </div>
+
+                <div class="timeline-empty">
+                </div>
+
+               <div class="timeline-middle">
+                   <div class="timeline-circle"></div>
+               </div>
+
+               <div class=" timeline-component timeline-content">
+                                <h3>উত্তরায়ন </h3>
+                                <h3 style="color:red;">২১ জুন</h3>
+                        
+                                           <p style="float:left; width: 65%;"> 
+                            উত্তর গোলার্ধের সবচেয়ে বড় দিন। দক্ষিণ গোলার্ধে আবার উল্টো। এদিনের পর থেকে সূর্য আবার দক্ষিণ থেকে যেতে থাকে। 
+                        </p><img src="june_sol.jpg" style="float:left; border-radius: 50%; width: 85px;" >
+           </div>
+
+                <div class="timeline-empty">
+                </div>
+
+                <div class="timeline-empty">
+                </div>
+
+               <div class="timeline-middle">
+                   <div class="timeline-circle"></div>
+               </div>
+
+               <div class=" timeline-component timeline-content">
+                                <h3>পূর্ণিমা </h3>
+                                <h3 style="color:red;">০৩  জুলাই</h3>
+                        
+                                          <img src="full_moon.jpg" style="float:left; border-radius: 50%; width: 85px;"> <p style="float:right; width: 65%;"> 
+                            এ সময় পৃথিবী সূর্য ও চাঁদের মাঝে থাকে। সূর্যের আলো পৃথিবী থেকে দৃশ্যমান চাঁদের পুরো অংশকে আলোকিত করে। জুলাই মাসের পূর্ণিমাকে বাক মুনও বলে। 
+                        </p>
+           </div>
+
+       </div>
+    </div> 
+</section>
+</body>
+</html>
+
