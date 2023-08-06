@@ -1,0 +1,329 @@
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-baqh{text-align:center;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-baqh">উজ্জ্বলতার ক্রম</th>
+    <th class="tg-baqh">নাম</th>
+    <th class="tg-baqh">ইংরেজি</th>
+    <th class="tg-baqh">বিষুবলম্ব</th>
+    <th class="tg-baqh">তারামণ্ডল</th>
+    <th class="tg-baqh">দেখার সেরা মাস<br>রাত নয়টায় </th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-baqh">১</td>
+    <td class="tg-baqh">লুব্ধক</td>
+    <td class="tg-baqh">Sirius</td>
+    <td class="tg-baqh">-১৭</td>
+    <td class="tg-baqh"></td>
+    <td class="tg-baqh"></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">২</td>
+    <td class="tg-baqh">সুহাইল</td>
+    <td class="tg-baqh">Canopus</td>
+    <td class="tg-baqh">-৫৩</td>
+    <td class="tg-baqh"></td>
+    <td class="tg-baqh"></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">৩</td>
+    <td class="tg-baqh">আলফা সেন্টোরি</td>
+    <td class="tg-baqh">Alpha Centauri</td>
+    <td class="tg-baqh">-৬১</td>
+    <td class="tg-baqh"></td>
+    <td class="tg-baqh"></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">৪</td>
+    <td class="tg-baqh">স্বাতী</td>
+    <td class="tg-baqh">Arcturus</td>
+    <td class="tg-baqh">+১৯</td>
+    <td class="tg-baqh"></td>
+    <td class="tg-baqh"></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">৫</td>
+    <td class="tg-baqh">অভিজিৎ</td>
+    <td class="tg-baqh">Vega</td>
+    <td class="tg-baqh">+৩৯</td>
+    <td class="tg-baqh">prvas</td>
+    <td class="tg-baqh"></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">৬</td>
+    <td class="tg-baqh">ক্যাপেলা</td>
+    <td class="tg-baqh">Capella</td>
+    <td class="tg-baqh">+৪৬</td>
+    <td class="tg-baqh"></td>
+    <td class="tg-baqh"></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">৭</td>
+    <td class="tg-baqh">রাইজেল</td>
+    <td class="tg-baqh">Rigel</td>
+    <td class="tg-baqh">-৮</td>
+    <td class="tg-baqh"></td>
+    <td class="tg-baqh"></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">৮</td>
+    <td class="tg-baqh">প্রভাস</td>
+    <td class="tg-baqh">Procyon</td>
+    <td class="tg-baqh">+৫</td>
+    <td class="tg-baqh"></td>
+    <td class="tg-baqh"></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">৯</td>
+    <td class="tg-baqh">আখেরনার / </br> নদীমুখ</td>
+    <td class="tg-baqh">Akhernar</td>
+    <td class="tg-baqh">-৫৭</td>
+    <td class="tg-baqh"></td>
+    <td class="tg-baqh"></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">১০</td>
+    <td class="tg-baqh">বিটলজুস</td>
+    <td class="tg-baqh">Betelgeuse</td>
+    <td class="tg-baqh">+৭</td>
+    <td class="tg-baqh"></td>
+    <td class="tg-baqh"></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">১১</td>
+    <td class="tg-baqh">হেডার</td>
+    <td class="tg-baqh">Hadar</td>
+    <td class="tg-baqh">-৬০</td>
+    <td class="tg-baqh"></td>
+    <td class="tg-baqh"></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">১২</td>
+    <td class="tg-baqh">শ্রবণা</td>
+    <td class="tg-baqh">Altair</td>
+    <td class="tg-baqh"></td>
+    <td class="tg-baqh"></td>
+    <td class="tg-baqh"></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">১৩</td>
+    <td class="tg-baqh">অ্যাক্রাক্স</td>
+    <td class="tg-baqh">Acrux</td>
+    <td class="tg-baqh"></td>
+    <td class="tg-baqh"></td>
+    <td class="tg-baqh"></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">১৪</td>
+    <td class="tg-baqh">রোহিণী/অ্যালডেবারান</td>
+    <td class="tg-baqh">Aldebaran</td>
+    <td class="tg-baqh"></td>
+    <td class="tg-baqh"></td>
+    <td class="tg-baqh"></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">১৫</td>
+    <td class="tg-baqh">জ্যেষ্ঠা</td>
+    <td class="tg-baqh">Antares</td>
+    <td class="tg-baqh"></td>
+    <td class="tg-baqh"></td>
+    <td class="tg-baqh"></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">১৬</td>
+    <td class="tg-baqh">চিত্রা</td>
+    <td class="tg-baqh">Spica</td>
+    <td class="tg-baqh"></td>
+    <td class="tg-baqh"></td>
+    <td class="tg-baqh"></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">১৭</td>
+    <td class="tg-baqh">পোলাক্স</td>
+    <td class="tg-baqh">Pollux</td>
+    <td class="tg-baqh"></td>
+    <td class="tg-baqh"></td>
+    <td class="tg-baqh"></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">১৮</td>
+    <td class="tg-baqh">মৎস্যমুখ</td>
+    <td class="tg-baqh">Fomalhaut</td>
+    <td class="tg-baqh"></td>
+    <td class="tg-baqh"></td>
+    <td class="tg-baqh"></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">১৯</td>
+    <td class="tg-baqh">পুচ্ছ</td>
+    <td class="tg-baqh">Deneb</td>
+    <td class="tg-baqh"></td>
+    <td class="tg-baqh"></td>
+    <td class="tg-baqh"></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">২০</td>
+    <td class="tg-baqh">মিমোসা</td>
+    <td class="tg-baqh">Mimosa</td>
+    <td class="tg-baqh"></td>
+    <td class="tg-baqh"></td>
+    <td class="tg-baqh"></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">২১</td>
+    <td class="tg-baqh">রেগুলাস </td>
+    <td class="tg-baqh">Regulus</td>
+    <td class="tg-baqh"></td>
+    <td class="tg-baqh"></td>
+    <td class="tg-baqh"></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">২২</td>
+    <td class="tg-baqh">আডেরা </td>
+    <td class="tg-baqh">Adhara</td>
+    <td class="tg-baqh"></td>
+    <td class="tg-baqh"></td>
+    <td class="tg-baqh"></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">২৩</td>
+    <td class="tg-baqh">শোলা </td>
+    <td class="tg-baqh">Shaula</td>
+    <td class="tg-baqh"></td>
+    <td class="tg-baqh"></td>
+    <td class="tg-baqh"></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">২৪</td>
+    <td class="tg-baqh">ক্যাস্টর </td>
+    <td class="tg-baqh">Castor</td>
+    <td class="tg-baqh"></td>
+    <td class="tg-baqh"></td>
+    <td class="tg-baqh"></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">২৫</td>
+    <td class="tg-baqh">গ্যাক্রাক্স </td>
+    <td class="tg-baqh">Gacrux</td>
+    <td class="tg-baqh"></td>
+    <td class="tg-baqh"></td>
+    <td class="tg-baqh"></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">২৬</td>
+    <td class="tg-baqh">বেলাট্রিক্স </td>
+    <td class="tg-baqh">Bellatrix</td>
+    <td class="tg-baqh"></td>
+    <td class="tg-baqh"></td>
+    <td class="tg-baqh"></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">২৭</td>
+    <td class="tg-baqh">এলন্যাথ </td>
+    <td class="tg-baqh">Elnath</td>
+    <td class="tg-baqh"></td>
+    <td class="tg-baqh"></td>
+    <td class="tg-baqh"></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">২৮</td>
+    <td class="tg-baqh">মায়াপ্ল্যাসিডাস </td>
+    <td class="tg-baqh">Miaplacidus</td>
+    <td class="tg-baqh"></td>
+    <td class="tg-baqh"></td>
+    <td class="tg-baqh"></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">২৯</td>
+    <td class="tg-baqh">অ্যালনিলাম </td>
+    <td class="tg-baqh">Alnilam</td>
+    <td class="tg-baqh"></td>
+    <td class="tg-baqh"></td>
+    <td class="tg-baqh"></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">৩০</td>
+    <td class="tg-baqh">গামা ভেলোরাম </td>
+    <td class="tg-baqh">Gamma Velorum</td>
+    <td class="tg-baqh"></td>
+    <td class="tg-baqh"></td>
+    <td class="tg-baqh"></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">৩১</td>
+    <td class="tg-baqh">অ্যালনেয়ার </td>
+    <td class="tg-baqh">Alnair</td>
+    <td class="tg-baqh"></td>
+    <td class="tg-baqh"></td>
+    <td class="tg-baqh"></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">৩২</td>
+    <td class="tg-baqh">অ্যালনিটাক</td>
+    <td class="tg-baqh">Alnitak</td>
+    <td class="tg-baqh"></td>
+    <td class="tg-baqh"></td>
+    <td class="tg-baqh"></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">৩৩</td>
+    <td class="tg-baqh">অ্যালিয়থ</td>
+    <td class="tg-baqh">Alioth</td>
+    <td class="tg-baqh"></td>
+    <td class="tg-baqh"></td>
+    <td class="tg-baqh"></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">৩৪</td>
+    <td class="tg-baqh">ডুবি</td>
+    <td class="tg-baqh">Dubhe</td>
+    <td class="tg-baqh"></td>
+    <td class="tg-baqh"></td>
+    <td class="tg-baqh"></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">৩৫</td>
+    <td class="tg-baqh">মিরফাক </td>
+    <td class="tg-baqh">Mirfak</td>
+    <td class="tg-baqh"></td>
+    <td class="tg-baqh"></td>
+    <td class="tg-baqh"></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">৪০</td>
+    <td class="tg-baqh">অ্যালকেইড </td>
+    <td class="tg-baqh">Alkaid</td>
+    <td class="tg-baqh"></td>
+    <td class="tg-baqh"></td>
+    <td class="tg-baqh"></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">৪১</td>
+    <td class="tg-baqh">মেনক্যালিন্যান </td>
+    <td class="tg-baqh">Menkalinan</td>
+    <td class="tg-baqh"></td>
+    <td class="tg-baqh"></td>
+    <td class="tg-baqh"></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">৪৩</td>
+    <td class="tg-baqh">অ্যালহিনা </td>
+    <td class="tg-baqh">Alhena</td>
+    <td class="tg-baqh"></td>
+    <td class="tg-baqh"></td>
+    <td class="tg-baqh"></td>
+  </tr>
+</tbody>
+</table>
+
+
+
