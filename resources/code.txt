@@ -1,48 +1,11 @@
-<dt>Term</dt>
-  <dd>
-DEF
-</dd>
+Tip 
 
-মেরুজ্যোত
+<i class="fa fa-lightbulb-o" aria-hidden="true"></i>
 
-অ | 
-আ  | 
-ই | 
-ঈ | 
-উ | 
-ঊ | 
-ঋ  | 
-এ | 
-ঐ  | 
-ও | 
-ঔ  | 
-ক | 
-খ | 
-গ | 
-ঘ | 
-চ | 
-ছ | 
-জ | 
-ঝ | 
-ট | 
-ঠ | 
-ড  | 
-ঢ | 
-ত | 
-থ | 
-দ | 
-ধ | 
-ন | 
-প | 
-ফ | 
-ব | 
-ভ | 
-ম | 
-য  | 
-র | 
-ল | 
-শ | 
-ষ  | 
-স | 
-হ | 
+Warning
+
+<i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
+
+<p class="tipwarning type1"> <span style="color:#ff4d4d;font-size: 15px;"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i>  সাবধান! </span><br/> TEXT </p>
+
 
