@@ -104,7 +104,7 @@ body {
   height: 40px;
   padding: 9px 0;
   top: calc(50% - 20px);
-  background: #F6D155;
+  background: #c299ff;
   border: 2px solid #006E51;
   border-radius: 40px;
   text-align: center;
@@ -123,7 +123,7 @@ body {
 
 .container .content {
   padding: 30px 90px 30px 30px;
-  background: #F6D155;
+  background: #80ccff;
   position: relative;
   border-radius: 0 500px 500px 0;
 }
@@ -220,7 +220,7 @@ ol a:before {
   left: -1.3em;
   top: 50%;
   margin-top: -1.3em;
-  background: #f9dd94;
+  background: #c299ff;
   height: 2em;
   width: 2em;
   line-height: 2em;
