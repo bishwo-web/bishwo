@@ -29,22 +29,22 @@ body {
   margin-left: -1px;
 }
 
-.container {
+.containersm {
   padding: 15px 30px;
   position: relative;
   background: inherit;
   width: 50%;
 }
 
-.container.left {
+.containersm.left {
   left: 0;
 }
 
-.container.right {
+.containersm.right {
   left: 50%;
 }
 
-.container::after {
+.containersm::after {
   content: '';
   position: absolute;
   width: 16px;
@@ -57,11 +57,11 @@ body {
   z-index: 1;
 }
 
-.container.right::after {
+.containersm.right::after {
   left: -8px;
 }
 
-.container::before {
+.containersm::before {
   content: '';
   position: absolute;
   width: 50px;
@@ -72,11 +72,11 @@ body {
   z-index: 1;
 }
 
-.container.right::before {
+.containersm.right::before {
   left: 8px;
 }
 
-.container .date {
+.containersm .date {
   position: absolute;
   display: inline-block;
   top: calc(50% - 8px);
@@ -89,15 +89,15 @@ body {
   z-index: 1;
 }
 
-.container.left .date {
+.containersm.left .date {
   right: -75px;
 }
 
-.container.right .date {
+.containersm.right .date {
   left: -75px;
 }
 
-.container .icon {
+.containersm .icon {
   position: absolute;
   display: inline-block;
   width: 40px;
@@ -113,34 +113,34 @@ body {
   z-index: 1;
 }
 
-.container.left .icon {
+.containersm.left .icon {
   right: 56px;
 }
 
-.container.right .icon {
+.containersm.right .icon {
   left: 56px;
 }
 
-.container .content {
+.containersm .content {
   padding: 30px 90px 30px 30px;
   background: #80ccff;
   position: relative;
   border-radius: 0 500px 500px 0;
 }
 
-.container.right .content {
+.containersm.right .content {
   padding: 30px 30px 30px 90px;
   border-radius: 500px 0 0 500px;
 }
 
-.container .content h2 {
+.containersm .content h2 {
   margin: 0 0 10px 0;
   font-size: 18px;
   font-weight: normal;
   color: #006E51;
 }
 
-.container .content p {
+.containersm .content p {
   margin: 0;
   font-size: 16px;
   line-height: 22px;
@@ -152,41 +152,41 @@ body {
     left: 90px;
   }
 
-  .container {
+  .containersm {
     width: 100%;
     padding-left: 120px;
     padding-right: 30px;
   }
 
-  .container.right {
+  .containersm.right {
     left: 0%;
   }
 
-  .container.left::after, 
-  .container.right::after {
+  .containersm.left::after, 
+  .containersm.right::after {
     left: 82px;
   }
 
-  .container.left::before,
-  .container.right::before {
+  .containersm.left::before,
+  .containersm.right::before {
     left: 100px;
     border-color: transparent #006E51 transparent transparent;
   }
 
-  .container.left .date,
-  .container.right .date {
+  .containersm.left .date,
+  .containersm.right .date {
     right: auto;
     left: 15px;
   }
 
-  .container.left .icon,
-  .container.right .icon {
+  .containersm.left .icon,
+  .containersm.right .icon {
     right: auto;
     left: 146px;
   }
 
-  .container.left .content,
-  .container.right .content {
+  .containersm.left .content,
+  .containersm.right .content {
     padding: 30px 30px 30px 90px;
     border-radius: 500px 0 0 500px;
   }
@@ -204,7 +204,7 @@ ol a {
   display: block;
   padding: .4em .4em .4em 2em;
   margin: .5em 0;
-  background: #DAD2CA;
+  background: #cceeff;
   color: #444;
   text-decoration: none;
   border-radius: .3em;

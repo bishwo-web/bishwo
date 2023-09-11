@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<body>
+<head>
+
+<style>
+dt.sitemap{
+color:blue; font-size: 20px;
+}
+dd.sitemap{
+color:#0099e6; font-size: 16px;padding-left:60px;
+}
+</style>
+</head>
+<h2>A Description List</h2>
+
+<dl>
+  <dt class="sitemap">Coffee</dt>
+  <dd class="sitemap">black hot drink</dd>
+    <dd class="sitemap">black hot drink</dd>
+      <dd class="sitemap">black hot drink</dd>
+        <dd class="sitemap">black hot drink</dd>
+  <dt>Milk</dt>
+  <dd class="sitemap">white cold drink</dd>
+</dl>
+
+</body>
+</html>
+
+
