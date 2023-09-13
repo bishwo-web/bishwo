@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html>
+<body>
+<head>
+
+<style>
+
+dd{
+	color:black; font-size: 16px;padding-left:60px;
+	}
+
+/* Listicle STARTS*/
+  ol {
+  counter-reset: li; 
+  list-style: none; 
+  padding: 0;
+  text-shadow: 0 0px 0 black;
+  display: inline-block;  
+}
+
+ol a {
+  position: relative;
+  display: block;
+  padding: .2em .4em .4em 2em;
+  margin: .5em 0;
+  background: #cceeff;
+  color: #444;
+  text-decoration: none;
+  border-radius: .3em;
+  transition: .3s ease-out;
+  float: ;
+}
+
+ol a:hover { background: #E9E4E0; }
+ol a:hover:before { transform: rotate(180deg); }
+ol a:before {
+  content: counter(li);
+  counter-increment: li;
+  position: absolute;
+  left: -1.3em;
+  top: 50%;
+  margin-top: -1.3em;
+  background: #00aaff;
+  height: 2em;
+  width: 2em;
+  line-height: 2em;
+  border: .3em solid #fff;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 2em;
+  transition: all .3s ease-out;
+}
+
+/* For Tabs and Desktop */ 
+ .listhead {
+  background-color: #00aaff;
+  padding: 5px;
+  width: 120px;
+  text-align: center;
+  text-decoration: none;
+  position: relative;
+  margin: 40px;
+  float: left;
+  color:#ffffb3; 
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+
+@media only screen and (min-width: 768px) {
+.listhead.listarrow-bottom:after {
+  content: " ";
+  position: absolute;
+  right: -15px;
+  top: 15px;
+  border-top: 15px solid transparent;
+  border-right: none;
+  border-left: 15px solid #33bbff;
+  border-bottom: 15px solid transparent; 
+}
+
+}
+
+@media only screen and (min-width: 768px) {
+a.listhead:hover{
+	background-color: #40bf80; 
+	transform: rotate(3deg);}
+	}
+
+/* Mobile */
+@media only screen and (max-width: 600px) {
+	.listhead.listarrow-bottom:after {
+  content: " ";
+  position: absolute;
+  right: 30px;
+  bottom: -15px;
+  border-top: 15px solid black;
+  border-right: 15px solid transparent;
+  border-left: 15px solid transparent;
+  border-bottom: none;
+	}
+
+@media only screen and (max-width: 600px) {
+	a.listhead:hover{
+	background-color: #40bf80; 
+	transform: rotate(3deg);}
+	}
+
+  /* Listicle ENDS */
+</style>
+</head>
+<h2>A Description List</h2>
+Make a list of clicable topics
+<dl>
+ <dt><a class="listhead listarrow-bottom" href="http://sky.bishwo.com/search/label/solar-system?max-results=20">সৌরজগৎ</a></dt>
+  <dd class="sitemap">
+  <ol>
+	<li class=""><a href="https://sky.bishwo.com/2014/09/size-of-solar-system.html">সৌরজগৎ কত বড়?</a>
+	<ol>
+	<li class=""><a href="https://sky.bishwo.com/2023/09/sun-moon-same-size-from-earth.html">চাঁদ ও সূর্য দেখতে সমান কেন?</a></li>
+	</ol>
+	</li>
+	    <li class=""><a href="https://sky.bishwo.com/2023/09/sun-moon-same-size-from-earth.html">চাঁদ ও সূর্য দেখতে সমান কেন?</a></li>
+    <li class=""><a href="https://sky.bishwo.com/2023/08/earth-rev.html">পৃথিবী আসলে কাকে কেন্দ্র করে ঘোরে?</a></li>
+    <li class=""><a href="https://sky.bishwo.com/2023/09/solar-eclipse.html">সূর্যগ্রহণ কীভাবে হয়?</a></li>
+    <li class=""><a href="https://sky.bishwo.com/2023/04/time-for-sunlight-to-reach-earth.html">সূর্যের আলো পৃথিবীতে পৌঁছতে কত সময় লাগে?</a></li>
+    <li class=""><a href="https://sky.bishwo.com/2015/02/olympus-mons.html">সৌরজগতের সবচেয়ে বড় আগ্নেয়গিরি</a></li>
+</ol>
+  </dd>
+  <a class="listhead listarrow-bottom" href="https://sky.bishwo.com/search/label/sun?max-results=20">সূর্য</a></dt>
+    
+ <dd class="sitemap">
+  <ol>
+    <li class=""><a href="#">সূর্য কত বড়?</a></li>
+    <li class=""><a href="https://sky.bishwo.com/2014/12/blog-post.html">সূর্যের বয়স কত?</a></li>
+     <li class=""><a href="https://sky.bishwo.com/2015/06/sun-distance.html">পৃথিবী থেকে সূর্যের দূরত্ব</a></li>
+     <li class=""><a href="https://sky.bishwo.com/2015/11/zodiac-constellations.html">সূর্য কখন কোথায় থাকে?</a></li>
+     <li class=""><a href="https://sky.bishwo.com/2018/04/sun-rotation.html">সূর্য কি ঘোরে?</a></li>
+     <li class=""><a href="https://sky.bishwo.com/2016/12/fusion-in-sun.html">সূর্য কীভাবে জ্বলে?</a></li>
+     <li class=""><a href="https://sky.bishwo.com/2016/06/sun-temperature.html">সূর্যের তাপমাত্রা কত?</a></li>
+     <li class=""><a href="https://sky.bishwo.com/2015/06/sun-distance.html">পৃথিবী থেকে সূর্যের দূরত্ব কত? </a></li>
+</ol>
+  </dd>
+
+      <a class="listhead listarrow-bottom" href="http://sky.bishwo.com/search/label/universe?max-results=20"> মহাবিশ্ব </a></dt>
+
+ <dd class="sitemap">
+  <ol>
+    <li class=""><a href="https://sky.bishwo.com/2014/09/center-of-universe.html">মহাবিশ্বের কেন্দ্র কোথায়?</a></li>
+    <li class=""><a href="https://sky.bishwo.com/2014/10/age-of-universe.html">মহাবিশ্বের বয়স</a></li>
+     <li class=""><a href="https://sky.bishwo.com/2014/10/size-of-universe.html">মহাবিশ্ব কত বড়?</a></li>
+     <li class=""><a href="https://sky.bishwo.com/2014/10/timeline-of-universe.html">মহাবিশ্বর শুরু থেকে আজ</a></li>
+     <li class=""><a href="https://sky.bishwo.com/2023/04/fate-of-the-universe.html">মহাবিশ্বের ভবিষ্যৎ</a></li>
+</ol>
+  </dd>
+
+
+      <a class="listhead listarrow-bottom" href="http://sky.bishwo.com/search/label/black-hole?max-results=20"> ব্ল্যাকহোল </a></dt>
+
+ <dd class="sitemap">
+  <ol>
+    <li class=""><a href="https://sky.bishwo.com/2016/02/black-hole-1.html">ব্ল্যাকহোলের পরিচয়</a></li>
+    <li class=""><a href="https://sky.bishwo.com/2016/03/blcak-hole-2.html">ব্ল্যাকহোলের জন্ম হয় কীভাবে?</a></li>
+     <li class=""><a href="https://sky.bishwo.com/2016/04/black-hole-3.html">ব্ল্যাকহোল কত বড় হতে পারে?</a></li>
+     <li class=""><a href="https://sky.bishwo.com/2016/08/black-hole-3-fall.html">ব্ল্যাকহোলে পড়ে গেলে কী হবে?</a></li>
+     <li class=""><a href="https://sky.bishwo.com/2015/04/sun-as-black-hole.html">সূর্য ব্ল্যাকহোল হয়ে গেলে কী হবে?</a></li>
+</ol>
+  </dd>
+  
+  <a class="listhead listarrow-bottom" href="http://sky.bishwo.com/search/label/star?max-results=20"> নক্ষত্র </a></dt>
+
+ <dd class="sitemap">
+  <ol>
+    <li class=""><a href="https://sky.bishwo.com/2014/09/largest-stars.html">বড় বড় নক্ষত্রের গল্প</a></li>
+    <li class=""><a href="https://sky.bishwo.com/2015/01/blog-post.html">বিভিন্ন রকম তারকা</a></li>
+     <li class=""><a href="https://sky.bishwo.com/2015/02/dwarf-star.html">বাদামি বামন তারাকে বইলে ব্যর্থ তারা</a></li>
+     <li class=""><a href="http://sky.bishwo.com/search/label/star-info?max-results=20">তারা পরিচিতি: সব তারা</a></li>
+     <li class=""><a href="http://sky.bishwo.com/search/label/constellation?max-results=20">তারামণ্ডলী</a></li>
+</ol>
+  </dd>
+  
+    <a class="listhead listarrow-bottom" href="http://sky.bishwo.com/search/label/star-info?max-results=20"> তারা পরিচিতি </a></dt>
+
+    
+ <dd class="sitemap">
+  <ol>
+    <li class=""><a href="https://sky.bishwo.com/2023/08/vega.html">অভিজিৎ</a></li>
+    <li class=""><a href="https://sky.bishwo.com/2023/08/altair.html">শ্রবণা</a></li>
+     <li class=""><a href="https://sky.bishwo.com/2023/06/arcturus.html">স্বাতী</a></li>
+     <li class=""><a href="https://sky.bishwo.com/2016/10/schedar.html">শেডার</a></li>
+     <li class=""><a href="https://sky.bishwo.com/2016/09/alderamin.html">আলডেরামিন</a></li>
+     <li class=""><a href="https://sky.bishwo.com/2016/04/spica.html">চিত্রা</a></li>
+     <li class=""><a href="https://sky.bishwo.com/2016/04/mizar-alcor.html">মাইজার ও আলোকর</a></li>
+     <li class=""><a href="https://sky.bishwo.com/search/label/star-info?max-results=20">সব তারা পরিচিতি</a></li>          
+</ol>
+  </dd>
+
+
+  <a class="listhead listarrow-bottom" href="https://sky.bishwo.com/search/label/galaxy?max-results=20"> ছায়াপথ </a></dt>
+
+ <dd class="sitemap">
+  <ol>
+    <li class=""><a href="https://sky.bishwo.com/2014/11/nearest-galaxies.html">মিল্কিওয়ের সবচেয়ে কাছের ছায়াপথ</a></li>
+     <li class=""><a href="https://sky.bishwo.com/2014/04/how-galaxy-overtakes-light.html">ছায়াপথ কীভাবে আলোর চেয়ে জোরে ছুটে?</a></li>
+     <li class=""><a href="https://sky.bishwo.com/2023/05/how-to-see-ndromeda.html">খালি চোখে দেখুন অ্যান্ড্রোমিডা ছায়াপথ</a></li>
+     <li class=""><a href="https://sky.bishwo.com/2016/02/galactic-habitable-zone.html">ছায়াপথের কোথায় বাসযোগ্য গ্রহ থাকে?</a></li>
+     <li class=""><a href="https://sky.bishwo.com/2016/01/sun-around-milkyway.html">সূর্য ঘোরে মিল্কিওয়ে ছায়াপথকে কেন্দ্র করে!</a></li>
+</ol>
+  </dd>
+  
+  
+ <dt> <a class="listhead listarrow-bottom" href=""> পৃথিবী </a></dt>
+
+ <dd class="sitemap">
+  <ol>
+    <li class=""><a href="https://sky.bishwo.com/2014/07/six-month-day.html">মেরু অঞ্চলে ছয় মাস রাতদিন কেন?</a></li>
+    <li class=""><a href="https://sky.bishwo.com/2014/06/why-no-east-west-pole.html">পৃথিবীর পূর্ব-পশ্চিমে মেরু নেই কেন?</a></li>
+    <li class=""><a href="https://sky.bishwo.com/2014/07/equla-day-night.html">দিন-রাত কখন কোথায় সমান?</a></li>
+     <li class=""><a href="https://sky.bishwo.com/2014/11/why-no-fall-for-rotation.html">পৃথিবী ঘুরে আমরা পড়ে যাই না কেন?</a></li>
+     <li class=""><a href="https://sky.bishwo.com/2014/11/blog-post.html">পৃথিবী কত জোরে ঘোরে</a></li>
+</ol>
+  </dd>
+
+      <a class="listhead listarrow-bottom" href=""> চাঁদ </a></dt>
+
+ <dd class="sitemap">
+  <ol>
+       <li class=""><a href="https://sky.bishwo.com/2023/05/moon-distance.html">চাঁদ পৃথিবী থেকে কত দূরে?</a></li>
+     <li class=""><a href="https://sky.bishwo.com/2018/08/moon-size.html">চাঁদ কত বড়?</a></li>
+          <li class=""><a href="https://sky.bishwo.com/2016/09/moon-temperature.html">চাঁদের তাপমাত্রা কত?</a></li>
+
+    <li class=""><a href="https://sky.bishwo.com/2015/06/how-full-moon-occurrs.html">পূর্ণিমা হয় কীভবে?</a></li>
+     <li class=""><a href="#">দিগন্তের চাঁদ বড় কেন?</a></li>
+     <li class=""><a href="https://sky.bishwo.com/2023/05/supermoon.html">সুপারমুন কী</a></li>
+     <li class=""><a href="#">মানুষ যেদিন প্রথম চাঁদে গেল</a></li>
+     <li class=""><a href="#">চাঁদ কীভাবে আলো দেয়?</a></li> 
+          <li class=""><a href="https://sky.bishwo.com/2016/02/moon-rotation.html">চাঁদ কি আবর্তন করে?</a></li>
+</ol>
+  </dd>
+  
+  <a class="listhead listarrow-bottom" href="">  রাতের আকাশ </a></dt>
+
+ <dd class="sitemap">
+  <ol>
+     <li class=""><a href="https://sky.bishwo.com/2015/10/binocular-for-sky-watching.html">দুরবিনে আকাশ দেখা</a></li>
+     <li class=""><a href="#">Text</a></li>
+     <li class=""><a href="#">Text</a></li>
+     <li class=""><a href="#">Text</a></li>     
+</ol>
+  </dd>
+  <a class="listhead listarrow-bottom" href=""> ন্যাভিগেশন </a></dt>
+
+ <dd class="sitemap">
+  <ol>
+    <li class=""><a href="https://sky.bishwo.com/2015/03/finding-direction.html">দিক নির্ণয়ে ধ্রুবতারা</a></li>
+     <li class=""><a href="https://sky.bishwo.com/2015/10/find-direction-with-sun.html">সূর্য দেখে দিক নির্ণয়</a></li>
+     <li class=""><a href="https://sky.bishwo.com/2015/11/direction-by-venus.html">শুকতারা দেখে দিক নির্ণয়</a></li>
+      <li class=""><a href="#">Text</a></li>
+     <li class=""><a href="#">Text</a></li>
+     <li class=""><a href="#">Text</a></li>
+</ol>
+  </dd>
+  
+   <a class="listhead listarrow-bottom" href=""> ছবি </a></dt>
+
+ <dd class="sitemap">
+  <ol>
+    <li class=""><a href="#">Text</a></li>
+    <li class=""><a href="#">Text</a></li>
+     <li class=""><a href="#">Text</a></li>
+     <li class=""><a href="#">Text</a></li>
+</ol>
+  </dd>
+
+
+      <a class="listhead listarrow-bottom" href=""> তত্ত্ব </a></dt>
+
+ <dd class="sitemap">
+  <ol>
+    <li class=""><a href="https://sky.bishwo.com/2023/05/edington-experiment.html">মহাকর্ষ কীভাবে আলোকে বাঁকিয়ে দেয়?</a></li>
+    <li class=""><a href="https://sky.bishwo.com/2023/06/why-sky-blue-not-violet.html">আকাশ কেন নীল, কেন বেগুনি নয়?</a></li>
+     <li class=""><a href="https://sky.bishwo.com/2014/04/how-galaxy-overtakes-light.html">ছায়াপথে কীভাবে আলোর চেয়ে দ্রুত চলে?</a></li>
+         <li class=""><a href="https://sky.bishwo.com/2015/01/string-theory.html">স্ট্রিং থিওরির সরল পরিচয়</a></li>
+    <li class=""><a href="#">Text</a></li>
+     <li class=""><a href="#">Text</a></li>
+     <li class=""><a href="#">Text</a></li>
+</ol>
+  </dd>
+   <a class="listhead listarrow-bottom" href="">গ্রহ </a></dt>
+
+ <dd class="sitemap">
+  <ol>
+    <li class=""><a href="#">Text</a></li>
+     <li class=""><a href="#">Text</a></li>
+    <li class=""><a href="#">Text</a></li>
+     <li class=""><a href="#">Text</a></li>
+     <li class=""><a href="#">Text</a></li>
+     <li class=""><a href="#">Text</a></li>
+     <li class=""><a href="#">Text</a></li>
+     <li class=""><a href="https://sky.bishwo.com/2014/10/blog-post.html">সৌরজগতের বাইরের সবচেয়ে বড় গ্রহ</a></li>              
+</ol>
+  </dd>
+  
+   <a class="listhead listarrow-bottom" href="">বামন গ্রহ </a></dt>
+
+ <dd class="sitemap">
+  <ol>
+    <li class=""><a href="https://sky.bishwo.com/2014/10/how-pluto-lost-planthood.html">প্লুটো যেভাবে গ্রহের খাতা থেকে বাদ পড়ল?</a></li>
+    <li class=""><a href="#">Text</a></li>
+     <li class=""><a href="#">Text</a></li>
+     <li class=""><a href="#">Text</a></li>
+</ol>
+  </dd>
+ 
+      <a class="listhead listarrow-bottom" href="">ধূমকেতু </a></dt>
+
+ <dd class="sitemap">
+  <ol>
+    <li class=""><a href="https://sky.bishwo.com/2014/10/halley-s-comet.html">হ্যালির ধূমকেতু</a></li>
+    <li class=""><a href="https://sky.bishwo.com/2015/01/comet-tail.html">ধূমকেতু লেজ পায় কোথায়?</a></li>
+     <li class=""><a href="#">Text</a></li>
+     <li class=""><a href="#">Text</a></li>
+</ol>
+  </dd>
+  
+  
+  <a class="listhead listarrow-bottom" href="">জীবনী </a></dt>
+
+ <dd class="sitemap">
+  <ol>
+    <li class=""><a href="#">এডউইন হাবল</a></li>
+    <li class=""><a href="#">Text</a></li>
+     <li class=""><a href="#">Text</a></li>
+     <li class=""><a href="http://sky.bishwo.com/search/label/bio?max-results=20">আরও দেখুন</a></li>
+</ol>
+  </dd>
+  
+  <a class="listhead listarrow-bottom" href="">আরও লিঙ্ক </a></dt>
+
+ <dd class="sitemap">
+  <ol>
+    <li class=""><a href="http://sky.bishwo.com/search/label/apod?max-results=20">আজকের ছবি</a></li>
+     <li class=""><a href="http://sky.bishwo.com/search/label/terminology?max-results=25">পরিভাষা - জেনে নিন শব্দের মানে</a></li>
+     <li class=""><a href="https://sky.bishwo.com/2023/07/astronomy-terms.html">সব পরিভাষার তালিকা</a></li>
+</ol>
+  </dd>
+</dl>
+
+</body>
+</html>
+
+
