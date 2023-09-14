@@ -1,13 +1,13 @@
- <div class="container right">
-    <div class="date">Category</div>
-    <i class="icon fa fa-gift"></i>
-    <div class="content">
-<ol>
-    <li class=""><a href="#">Text</a></li>
-    <li class=""><a href="#">Text</a></li>
+ <a class="listhead listarrow-bottom" href=""> Category </a></dt>
+ <dd class="sitemap">
+  <ol>
+     <li class=""><a href="#">Text</a></li>
+     <li class=""><a href="#">Text</a></li>
+     <li class=""><a href="#">Text</a></li>
+     <li class=""><a href="#">Text</a></li>
+     <li class=""><a href="#">Text</a></li>
+     <li class=""><a href="#">Text</a></li>
      <li class=""><a href="#">Text</a></li>
      <li class=""><a href="#">Text</a></li>
 </ol>
-    </div>
-  </div>
-
+  </dd>

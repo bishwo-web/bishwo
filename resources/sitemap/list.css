@@ -1,0 +1,115 @@
+/* Style of list above Starts */
+a.listref {
+	background-color: #b3e0ff;
+	text-decoration: none;
+	border-left: 2px solid #4db8ff;
+	border-right: 2px solid #4db8ff;
+	padding: 4px 2px;
+	}
+
+
+/* Style of list above ends*/
+
+dd{
+	color:black; font-size: 16px;padding-left:60px;
+	}
+
+/* Listicle STARTS*/
+  ol {
+  counter-reset: li; 
+  list-style: none; 
+  padding: 0;
+  text-shadow: 0 0px 0 black;
+  display: inline-block;  
+}
+
+ol a {
+  position: relative;
+  display: block;
+  padding: .2em .4em .4em 2em;
+  margin: .5em 0;
+  background: #cceeff;
+  color: #444;
+  text-decoration: none;
+  border-radius: .3em;
+  transition: .3s ease-out;
+  float: ;
+}
+
+ol a:hover { background: #E9E4E0; }
+ol a:hover:before { transform: rotate(180deg); }
+ol a:before {
+  content: counter(li);
+  counter-increment: li;
+  position: absolute;
+  left: -1.3em;
+  top: 50%;
+  margin-top: -1.3em;
+  background: #00aaff;
+  height: 2em;
+  width: 2em;
+  line-height: 2em;
+  border: .3em solid #fff;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 2em;
+  transition: all .3s ease-out;
+}
+
+/* For Tabs and Desktop */ 
+ .listhead {
+  background-color: #00aaff;
+  padding: 5px;
+  width: 120px;
+  text-align: center;
+  text-decoration: none;
+  position: relative;
+  margin: 40px;
+  float: left;
+  color:#ffffb3; 
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+
+@media only screen and (min-width: 768px) {
+.listhead.listarrow-bottom:after {
+  content: " ";
+  position: absolute;
+  right: -15px;
+  top: 15px;
+  border-top: 15px solid transparent;
+  border-right: none;
+  border-left: 15px solid #33bbff;
+  border-bottom: 15px solid transparent; 
+}
+
+}
+
+@media only screen and (min-width: 768px) {
+a.listhead:hover{
+	background-color: #40bf80; 
+	transform: rotate(3deg);}
+	}
+
+/* Mobile */
+@media only screen and (max-width: 600px) {
+	.listhead.listarrow-bottom:after {
+  content: " ";
+  position: absolute;
+  right: 30px;
+  bottom: -15px;
+  border-top: 15px solid #33bbff;
+  border-right: 15px solid transparent;
+  border-left: 15px solid transparent;
+  border-bottom: none;
+	}
+
+@media only screen and (max-width: 600px) {
+	a.listhead:hover{
+	background-color: #40bf80; 
+	transform: rotate(3deg);}
+	}
+
+  /* Listicle ENDS */
