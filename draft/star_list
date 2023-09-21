@@ -13,8 +13,10 @@
     <th class="tg-baqh">নাম</th>
     <th class="tg-baqh">ইংরেজি</th>
     <th class="tg-baqh">বিষুবলম্ব</th>
+    <th class="tg-baqh">আপাত উজ্জ্বলতা</th>
+    <th class="tg-baqh">দূরত্ব</th>
     <th class="tg-baqh">তারামণ্ডল</th>
-    <th class="tg-baqh">দেখার সেরা মাস<br>রাত নয়টায় </th>
+    <th class="tg-baqh">দেখার সেরা মাস<br/>রাত নয়টায় </th>
   </tr>
 </thead>
 <tbody>
@@ -23,7 +25,7 @@
     <td class="tg-baqh">লুব্ধক</td>
     <td class="tg-baqh">Sirius</td>
     <td class="tg-baqh">-১৭</td>
-    <td class="tg-baqh"></td>
+    <td class="tg-baqh">-1.44</td>
     <td class="tg-baqh"></td>
   </tr>
   <tr>
@@ -31,7 +33,7 @@
     <td class="tg-baqh">সুহাইল</td>
     <td class="tg-baqh">Canopus</td>
     <td class="tg-baqh">-৫৩</td>
-    <td class="tg-baqh"></td>
+    <td class="tg-baqh">-0.62</td>
     <td class="tg-baqh"></td>
   </tr>
   <tr>
@@ -39,7 +41,7 @@
     <td class="tg-baqh">আলফা সেন্টোরি</td>
     <td class="tg-baqh">Alpha Centauri</td>
     <td class="tg-baqh">-৬১</td>
-    <td class="tg-baqh"></td>
+    <td class="tg-baqh">−0.27 </td>
     <td class="tg-baqh"></td>
   </tr>
   <tr>
@@ -47,7 +49,7 @@
     <td class="tg-baqh">স্বাতী</td>
     <td class="tg-baqh">Arcturus</td>
     <td class="tg-baqh">+১৯</td>
-    <td class="tg-baqh"></td>
+    <td class="tg-baqh">−0.05</td>
     <td class="tg-baqh"></td>
   </tr>
   <tr>
@@ -55,7 +57,7 @@
     <td class="tg-baqh">অভিজিৎ</td>
     <td class="tg-baqh">Vega</td>
     <td class="tg-baqh">+৩৯</td>
-    <td class="tg-baqh">prvas</td>
+    <td class="tg-baqh">0.03</td>
     <td class="tg-baqh"></td>
   </tr>
   <tr>
@@ -63,7 +65,7 @@
     <td class="tg-baqh">ক্যাপেলা</td>
     <td class="tg-baqh">Capella</td>
     <td class="tg-baqh">+৪৬</td>
-    <td class="tg-baqh"></td>
+    <td class="tg-baqh">0.08</td>
     <td class="tg-baqh"></td>
   </tr>
   <tr>
@@ -71,7 +73,7 @@
     <td class="tg-baqh">রাইজেল</td>
     <td class="tg-baqh">Rigel</td>
     <td class="tg-baqh">-৮</td>
-    <td class="tg-baqh"></td>
+    <td class="tg-baqh">0.13</td>
     <td class="tg-baqh"></td>
   </tr>
   <tr>
@@ -79,7 +81,7 @@
     <td class="tg-baqh">প্রভাস</td>
     <td class="tg-baqh">Procyon</td>
     <td class="tg-baqh">+৫</td>
-    <td class="tg-baqh"></td>
+    <td class="tg-baqh">0.34</td>
     <td class="tg-baqh"></td>
   </tr>
   <tr>
@@ -87,7 +89,7 @@
     <td class="tg-baqh">আখেরনার / </br> নদীমুখ</td>
     <td class="tg-baqh">Akhernar</td>
     <td class="tg-baqh">-৫৭</td>
-    <td class="tg-baqh"></td>
+    <td class="tg-baqh">0.46</td>
     <td class="tg-baqh"></td>
   </tr>
   <tr>
@@ -95,7 +97,7 @@
     <td class="tg-baqh">বিটলজুস</td>
     <td class="tg-baqh">Betelgeuse</td>
     <td class="tg-baqh">+৭</td>
-    <td class="tg-baqh"></td>
+    <td class="tg-baqh">0.50</td>
     <td class="tg-baqh"></td>
   </tr>
   <tr>
@@ -103,7 +105,7 @@
     <td class="tg-baqh">হেডার</td>
     <td class="tg-baqh">Hadar</td>
     <td class="tg-baqh">-৬০</td>
-    <td class="tg-baqh"></td>
+    <td class="tg-baqh">0.61</td>
     <td class="tg-baqh"></td>
   </tr>
   <tr>
