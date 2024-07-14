@@ -14,3 +14,6 @@ power list:https://en.wikipedia.org/wiki/Unicode_subscripts_and_superscripts
 
 “, ”
 
+Babylon: 𒁹, 𒀺
+
+
